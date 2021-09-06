@@ -1,22 +1,26 @@
 body {
-    background-image: url(fondo1.png);
+  background-image: url(fondo1.png);
 }
 h1 {
-   text-align: center;
-    color:white
+  text-align: center;
+  color: white;
 }
 a {
-    border: 4px solid beige;
-    color: white
+  border: 4px solid beige;
+  color: white;
 }
 p {
-    color:white
-        }
+  color: white;
+}
 .border-white {
-background-color: cadetblue;
-    border: 5px solid beige;
+  background-color: cadetblue;
+  border: 5px solid beige;
 }
 video {
-   display:block;
-   margin:auto;
+  display: block;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
 }
