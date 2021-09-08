@@ -1,17 +1,25 @@
+*{
+   font-family: 'Bebas Neue';
+}
 body {
   background-image: url(background.png);
 }
-h1 {
+.titulo-h1 {
   text-align: center;
   color:goldenrod;
-}
+  font-size: 4em;
+ }
+ h2{
+  color:goldenrod;
+  font-size: 2em;
+  text-align: center;
+ }
 a {
   border: 4px solid rgb(36, 53, 58);
   color: goldenrod;
 }
 p { 
-  color: goldenrod;
-  font-family: system-ui;
+  color: goldenrod; 
   font-stretch: normal;
  
 }
@@ -30,10 +38,10 @@ video {
 ul {
   color: goldenrod;
 }
-button {
+li {
   background-color:rgb(10, 17, 14);
   border-color: goldenrod;
   border-radius: 20%;
   color:honeydew;
-  display: -ms-inline-grid;
+  display: inline-flex;
 }
